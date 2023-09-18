@@ -15,7 +15,7 @@ namespace PalindromeExerciseTests
         [InlineData("level", true)]
         public void IsAPalindromeTest(string str1, bool expected)
         {
-            var instance = new WordSmith();
+            WordSmith instance = new WordSmith();
 
             bool actual = instance.IsAPalindrome(str1);
 
